@@ -28,6 +28,9 @@
 extern "C" {
 #endif
 
+#include "stm32f10x.h"
+#include "debug_trace.h"
+
 enum en_spi_port {
 	DEV_SPI1_GPIOA,
 	DEV_SPI1_GPIOB,

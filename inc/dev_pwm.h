@@ -66,7 +66,8 @@ extern "C" {
 #include <string.h>
 #include <stdio.h>
 #include <stddef.h>
-#include "platform_config.h"
+#include "stm32f10x.h"
+#include "debug_trace.h"
 
 enum en_pwm_channel_id {
     PWM1_1 = 0, //TIMER 1, PA.8

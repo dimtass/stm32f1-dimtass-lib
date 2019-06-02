@@ -24,7 +24,7 @@
  * Author: Dimitris Tassopoulos <dimtass@gmail.com>
  */
 
-#include "dev_spi.h"
+#include "dev_spi_master.h"
 
 #define NUM_OF_SPI_FREQ 8
 uint32_t spi_available_freq[NUM_OF_SPI_FREQ];

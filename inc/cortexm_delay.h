@@ -21,6 +21,8 @@
 extern "C" {
 #endif
 
+#include <stdint.h>
+#include "stm32f10x.h"
 
 void delay_init(uint32_t system_core_clock);
 void delay_us(uint32_t us);

@@ -49,7 +49,8 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include <string.h>
-#include "platform_config.h"
+#include "stm32f10x.h"
+#include "debug_trace.h"
 
 struct adc_channel;
 

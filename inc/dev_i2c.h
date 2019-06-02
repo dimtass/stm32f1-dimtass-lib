@@ -34,7 +34,8 @@ extern "C" {
 #include <string.h>
 #include <stdio.h>
 #include <stddef.h>
-#include "platform_config.h"
+#include "stm32f10x.h"
+#include "debug_trace.h"
 #include "list.h"
 
 enum en_i2c_dev {

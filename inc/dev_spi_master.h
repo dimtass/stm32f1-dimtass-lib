@@ -38,7 +38,6 @@ extern "C" {
 #include <stdint.h>
 #include <stdlib.h>
 #include <string.h>
-#include "platform_config.h"
 #include "dev_spi_common.h"
 
 #define DECLARE_SPI_CHANNEL(NAME, OWNER, CHANNEL) \
