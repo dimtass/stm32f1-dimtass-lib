@@ -16,8 +16,9 @@
 #ifndef __DEBUG_TRACE_H_
 #define __DEBUG_TRACE_H_
 
-#include <stdio.h>
 #include <stdint.h>
+#include <stdio.h>
+#include <stddef.h>
 #include "LICENSE.h"
 
 #define DEBUG_TRACE
